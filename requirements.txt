@@ -185,7 +185,6 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 SQLAlchemy==1.4.9
 sqlparse==0.4.1
--e src==0.0.1
 statsmodels==0.12.2
 tabulate==0.8.9
 terminado==0.9.4
