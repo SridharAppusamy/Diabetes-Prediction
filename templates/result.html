@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Page Title</title>
+<style>
+
+body {
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background: gray;
+  padding: 10px;
+  height:400px
+}
+form
+{
+
+}
+#footer {background:#6a93d4;float:left;bottom:0;width: 99%;position: absolute}
+</style>
+</head>
+<body>
+
+<!-- Website Title -->
+<div class="container" id="header">
+    <h1 class='container-heading'>
+		<span class='heading_first'>Diabetes prediction(Yes/No)</span>
+    </h1>
+    <div class='description'>
+		<p>A Machine Learning Web App, Built with Flask, Deployed in Cloud.</p>
+	</div>
+	<hr>
+</div>
+
+
+<div class='content' id="content">
+<p class='result-p'>The final predicted score : {{ diabetes }}</p>
+</div>
+
+
+<div id="footer">
+
+	<div>
+	<span>
+		<a href="https://github.com/SridharAppusamy">https://github.com/SridharAppusamy</a>
+	</span>
+	</div>
+		<p class='footer-description'>Made with ❤️ by Sridhar Appusamy</p>
+</div>
+
+</body>
+</html>
